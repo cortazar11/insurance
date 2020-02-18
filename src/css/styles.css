@@ -1,0 +1,211 @@
+@import url('https://fonts.google.com/specimen/DM+Serif+Display');
+@import url('https://fonts.google.com/specimen/Karla');
+
+html, body {
+    font-size: 16px;
+    font-family: 'Karla';
+    background-color: hsl(0, 0%, 98%);
+    margin: 0.5rem 0 0 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:  white;
+    border: 1px solid;
+    font-family: 'DM Serif Display';
+}
+
+
+ul {
+    padding-right: 6rem;
+}
+
+h3 {
+    margin-top: 23rem;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.logo {
+    margin-left: 7rem;
+}
+
+img#introDesktop {
+    position: absolute;
+    top: 10rem;
+    left: 37rem;
+}
+
+.show-case {
+    font-size: 12px;
+    height: 36rem;
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+    border: 1px solid;
+    padding-left: 6rem;
+   
+}
+
+#view {
+    border: 1px solid white;
+    width: 6rem;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+p#humanizing {
+    width: 25rem;
+}
+
+#humanizingBig {
+    font-size: 3rem;
+}
+
+
+.bottom {
+    display: flex;
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+
+#find {
+        display: block;
+        width: auto;
+        
+}
+
+#work {
+    margin-left: 30rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+
+#insure {
+    font-size: 40px;
+}
+
+footer.attribution {
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+#icons ul li{
+    padding: 0 0.5rem;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons ul {
+    display: flex;
+}
+
+@media only screen and (max-device-width: 375px) {
+    html, body {
+        margin: 0;
+    }
+
+    .container {
+        margin:0;
+        padding: 0;
+        width:100%;
+    }
+
+    .logo {
+        margin-left: -6.5rem;
+    }
+
+    h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    
+    img#introDesktop {
+        display: none;
+    }
+
+    p#humanizing {
+        max-width:100%;
+    }
+
+    #view {
+        margin: 0 auto;
+    }
+
+    #features * {
+        text-align: center;
+    }
+    
+    #work {
+        border: none;
+    }
+
+
+    #footer * p{
+        text-align: center;
+    }
+
+    
+    .show-case {
+        margin: -1rem 0 0 0;
+        padding: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .bottom {
+        display: block;
+        padding:0;
+        text-align: center;
+    }
+    
+    #work {
+        margin: 0;
+        text-align: center;
+    }
+
+    #icons {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #icons ul {
+        margin-left: 7rem;
+    }
+
+    #icons * {
+        margin: 0 auto;
+    }
+
+    #hamburger {
+        padding-left: 19rem;
+        padding-top: 0.5rem;
+    }
+
+    #footer ul li {
+        margin-left: 5.5rem;
+        text-align: center;
+    }
+}
+
+
+
